@@ -16,6 +16,8 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "drupal/bootstrap_barrio": "5.1.4",
+        "drupal/bootstrap_sass": "5.0.2",
         "drupal/console": "^1.9",
         "drupal/core-composer-scaffold": "^9.1",
         "drupal/core-project-message": "^9.1",
