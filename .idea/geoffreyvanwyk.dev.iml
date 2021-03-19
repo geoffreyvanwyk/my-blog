@@ -60,9 +60,10 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/laminas/laminas-feed" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/laminas/laminas-escaper" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/asm89/stack-cors" />
-      <excludeFolder url="file://$MODULE_DIR$/web/core" />
       <excludeFolder url="file://$MODULE_DIR$/vendor" />
-      <excludeFolder url="file://$MODULE_DIR$/web/sites/default/files" />
+      <excludeFolder url="file://$MODULE_DIR$/web/sites/default/files/css" />
+      <excludeFolder url="file://$MODULE_DIR$/web/sites/default/files/js" />
+      <excludeFolder url="file://$MODULE_DIR$/web/sites/default/files/php" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

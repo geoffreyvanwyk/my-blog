@@ -14,7 +14,8 @@
 
 # Drupal's files directory
 /web/sites/*/files/*
-!/web/sites/*/files/sync/
+!/web/sites/*/files/.htaccess
+!/web/sites/*/files/config_bH5dNlPaG9XufsRBWJ0xTCW9MgLv5Sph9QyXKhpsyHR9e8EAAgce677eiVdLI5C8MIJzVqLp_A/
 
 # Ignore .env files as they are personal
 /.env
