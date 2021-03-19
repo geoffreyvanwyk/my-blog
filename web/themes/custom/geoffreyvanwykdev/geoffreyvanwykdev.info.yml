@@ -1,0 +1,22 @@
+name: 'My Theme'
+type: theme
+description: 'Custom theme based on Tailwind CSS.'
+core_version_requirement: ^8 || ^9
+base theme: false
+
+libraries:
+  - tailwindcss_theme/global_styles
+
+regions:
+  sidebar_first: 'Left sidebar'
+  sidebar_second: 'Right sidebar'
+  content: 'Content'
+  header: 'Header'
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  footer: 'Footer'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  breadcrumb: 'Breadcrumb'
