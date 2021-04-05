@@ -2,7 +2,7 @@
 {#
 /**
  * @file
- * Default theme implementation for a branding block.
+ * Theme override for a branding block.
  *
  * Each branding element variable (logo, name, slogan) is only available if
  * enabled in the block configuration.
@@ -11,18 +11,24 @@
  * - site_logo: Logo for site as defined in Appearance or theme settings.
  * - site_name: Name for site as defined in Site information settings.
  * - site_slogan: Slogan for site as defined in Site information settings.
- *
- * @ingroup themeable
  */
 #}
 {% block content %}
+  <figure class="tw-flex">
   {% if site_logo %}
     <a href="{{ path('<front>') }}" rel="home">
-      <img src="{{ site_logo }}" alt="{{ 'Home'|t }}" />
+        <div class="tw-p-1 tw-bg-gray-400 tw-rounded-full tw-flex tw-items-center tw-justify-center">
+          <img src="{{ site_logo }}" alt="{{ 'Home'|t }}" class="tw-w-16 tw-h-16 tw-rounded-full" />
+        </div>
     </a>
   {% endif %}
+    <figcaption class="tw-pl-4 tw-flex tw-flex-col tw-items-start tw-justify-center">
   {% if site_name %}
     <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">{{ site_name }}</a>
   {% endif %}
+      <div class="tw-text-gray-400">
   {{ site_slogan }}
+      </div>
+    </figcaption>
+  </figure>
 {% endblock %}
