@@ -1,12 +1,14 @@
+const heroPatterns = require('tailwindcss-hero-patterns/src/patterns');
+
 module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
     heroPatterns: {
-      circuitboard: patterns.circuitboard
+      circuitboard: heroPatterns.circuitboard
     },
-    heroPatternsShades: ["400"],
-    heroPatternsColors: ["gray"],
+    heroPatternsShades: ['400'],
+    heroPatternsColors: ['gray'],
     extend: {},
   },
   variants: {
