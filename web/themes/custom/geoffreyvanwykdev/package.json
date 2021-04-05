@@ -4,9 +4,7 @@
   "description": "\"My custom Drupal theme for my blog, styled with Tailwind CSS.\"",
   "main": "index.js",
   "scripts": {
-    "gulp": "./node_modules/gulp-cli/bin/gulp.js styles",
-    "build": "npx tailwindcss build src/styles.css -o css/styles.css",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "gulp": "./node_modules/gulp-cli/bin/gulp.js styles"
   },
   "author": "Geoffrey van Wyk <geoffrey@vanwyk.biz>",
   "license": "GPL-3.0-or-later",
