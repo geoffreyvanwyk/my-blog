@@ -1,0 +1,15 @@
+attributes:
+  target:
+    label: Target
+    options:
+      _self: 'Same Tab'
+      _blank: 'New Tab'
+  data-icon:
+    label: Icon
+    description: 'Replace the text of the menu link with an icon.'
+    options:
+      home: Home
+      info: Information
+      github: GitHub
+      stack-overflow: 'Stack Overflow'
+      twitter: Twitter
