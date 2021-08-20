@@ -1,22 +1,22 @@
-uuid: 1d194fc4-3e43-4be4-bc5f-3ae046e9b835
+uuid: 7cf95f6c-e21d-43dd-ad6c-4b58585056e7
 langcode: en
 status: true
 dependencies:
   config:
-    - system.menu.main
+    - system.menu.social-media
   module:
     - system
   theme:
     - geoffreyvanwykdev
-id: mainnavigation
+id: socialmedia
 theme: geoffreyvanwykdev
 region: primary_menu
-weight: -1
+weight: 0
 provider: null
-plugin: 'system_menu_block:main'
+plugin: 'system_menu_block:social-media'
 settings:
-  id: 'system_menu_block:main'
-  label: 'Main navigation'
+  id: 'system_menu_block:social-media'
+  label: 'Social media'
   provider: system
   label_display: '0'
   level: 1

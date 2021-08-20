@@ -16,10 +16,12 @@
     ],
     "require": {
         "composer/installers": "^1.2",
+        "drupal/content_sync": "^2.1",
         "drupal/core-composer-scaffold": "^8.8",
         "drupal/core-project-message": "^8.8",
         "drupal/core-recommended": "^8.8",
-        "drupal/menu_link_attributes": "^1.2"
+        "drupal/menu_link_attributes": "^1.2",
+        "drush/drush":  "^10.4"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -82,8 +84,5 @@
                 "      composer remove drupal/core-project-message"
             ]
         }
-    },
-    "require-dev": {
-        "drush/drush": "^10.4"
     }
 }

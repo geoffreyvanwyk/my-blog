@@ -64,7 +64,6 @@
       <path value="$PROJECT_DIR$/vendor/enlightn/security-checker" />
       <path value="$PROJECT_DIR$/vendor/grasmash/yaml-expander" />
       <path value="$PROJECT_DIR$/vendor/grasmash/expander" />
-      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
       <path value="$PROJECT_DIR$/vendor/consolidation/annotated-command" />
       <path value="$PROJECT_DIR$/vendor/consolidation/self-update" />
       <path value="$PROJECT_DIR$/vendor/consolidation/filter-via-dot-access-data" />
@@ -87,7 +86,7 @@
       <path value="$PROJECT_DIR$/vendor/league/container" />
     </include_path>
   </component>
-  <component name="PhpProjectSharedConfiguration" php_language_level="8.0">
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.4">
     <option name="suggestChangeDefaultLanguageLevel" value="false" />
   </component>
 </project>

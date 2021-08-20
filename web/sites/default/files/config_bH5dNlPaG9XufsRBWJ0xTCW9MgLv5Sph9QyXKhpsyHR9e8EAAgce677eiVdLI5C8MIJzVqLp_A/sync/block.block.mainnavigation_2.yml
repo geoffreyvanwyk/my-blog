@@ -1,4 +1,4 @@
-uuid: 1d194fc4-3e43-4be4-bc5f-3ae046e9b835
+uuid: 7b6be5bb-b8d8-4390-8c29-f3fa73572017
 langcode: en
 status: true
 dependencies:
@@ -8,10 +8,10 @@ dependencies:
     - system
   theme:
     - geoffreyvanwykdev
-id: mainnavigation
+id: mainnavigation_2
 theme: geoffreyvanwykdev
-region: primary_menu
-weight: -1
+region: footer
+weight: 0
 provider: null
 plugin: 'system_menu_block:main'
 settings:
