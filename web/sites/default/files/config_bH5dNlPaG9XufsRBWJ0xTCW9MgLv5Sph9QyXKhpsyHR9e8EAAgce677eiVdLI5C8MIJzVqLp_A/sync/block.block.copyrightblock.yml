@@ -1,0 +1,25 @@
+uuid: 7745a914-d401-4864-8184-2307e35cf56d
+langcode: en
+status: true
+dependencies:
+  module:
+    - copyright_block
+  theme:
+    - geoffreyvanwykdev
+id: copyrightblock
+theme: geoffreyvanwykdev
+region: footer
+weight: 0
+provider: null
+plugin: copyright_block
+settings:
+  id: copyright_block
+  label: Copyright
+  provider: copyright_block
+  label_display: '0'
+  start_year: '2021'
+  separator: '-'
+  text:
+    value: "<p>©&nbsp;[copyright_statement:dates]&nbsp;[site:name]</p>\r\n"
+    format: basic_html
+visibility: {  }
