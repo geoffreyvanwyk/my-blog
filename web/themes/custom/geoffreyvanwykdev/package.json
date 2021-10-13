@@ -4,18 +4,17 @@
   "description": "\"My custom Drupal theme for my blog, styled with Tailwind CSS.\"",
   "main": "index.js",
   "scripts": {
-    "gulp": "./node_modules/gulp-cli/bin/gulp.js styles"
+    "start": "vite",
+    "build": "vite build"
   },
   "author": "Geoffrey van Wyk <geoffrey@vanwyk.biz>",
   "license": "GPL-3.0-or-later",
   "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-cli": "^2.3.0",
-    "gulp-postcss": "^9.0.0",
-    "gulp-purgecss": "^4.0.2",
-    "gulp-sass": "^4.1.0",
-    "postcss-import": "^14.0.0",
+    "autoprefixer": "^10.3.7",
+    "postcss": "^8.3.9",
     "tailwindcss": "^2.0.4",
-    "tailwindcss-hero-patterns": "^0.0.1"
+    "tailwindcss-hero-patterns": "^0.0.1",
+    "vite": "^2.6.7",
+    "vite-plugin-live-reload": "^2.1.0"
   }
 }
