@@ -2,14 +2,11 @@ global_styles:
   version: VERSION
   css:
     theme:
-      styles/style.css: {}
+      assets/theme.css: {}
 
 global_javascript:
-  dependencies:
-    - core/jquery
-    - core/drupalSettings
-
-hot_module_replacement:
-  header: true
+  version: VERSION
   js:
-    http://localhost:12321/@vite/client: {type: external, attributes: { type: 'module'}}
+    theme:
+      assets/theme.js
+

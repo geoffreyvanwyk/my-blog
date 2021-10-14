@@ -11,10 +11,15 @@
   "license": "GPL-3.0-or-later",
   "devDependencies": {
     "autoprefixer": "^10.3.7",
+    "browser-sync": "^2.27.5",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "laravel-mix": "^6.0.34",
+    "mix-tailwindcss": "^1.3.0",
     "postcss": "^8.3.9",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.43.2",
+    "sass-loader": "^12.2.0",
     "tailwindcss": "^2.0.4",
-    "tailwindcss-hero-patterns": "^0.0.1",
-    "vite": "^2.6.7",
-    "vite-plugin-live-reload": "^2.1.0"
+    "tailwindcss-hero-patterns": "^0.0.1"
   }
 }

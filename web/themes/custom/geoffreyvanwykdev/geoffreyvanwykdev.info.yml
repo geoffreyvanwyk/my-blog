@@ -7,7 +7,6 @@ base theme: false
 libraries:
   - geoffreyvanwykdev/global_styles
   - goeffreyvanwydev/global_javascript
-  - geoffreyvanwykdev/hot_module_replacement
 
 regions:
   page_top: 'Page top'
