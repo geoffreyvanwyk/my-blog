@@ -4,6 +4,9 @@ description: 'Custom base theme using Tailwind CSS.'
 core_version_requirement: ^8 || ^9
 base theme: false
 
+dependencies:
+  - alpinejs
+
 libraries:
   - geoffreyvanwykdev/global_styles
   - geoffreyvanwykdev/global_javascript

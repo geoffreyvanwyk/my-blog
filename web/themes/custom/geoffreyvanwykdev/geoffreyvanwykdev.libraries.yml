@@ -9,4 +9,6 @@ global_javascript:
   js:
     theme:
       assets/theme.js
+  dependencies:
+    - alpinejs/alpine
 

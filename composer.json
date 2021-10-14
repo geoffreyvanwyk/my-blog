@@ -16,6 +16,7 @@
     ],
     "require": {
         "composer/installers": "^1.2",
+        "drupal/alpinejs": "^1.4",
         "drupal/content_sync": "^2.1",
         "drupal/copyright_block": "^1.0@RC",
         "drupal/core-composer-scaffold": "^8.8",
@@ -39,7 +40,8 @@
                 "web-root": "web/"
             },
             "file-mapping": {
-                "[web-root]/sites/development.services.yml": false
+                "[web-root]/sites/development.services.yml": false,
+                "[web-root]/sites/example.settings.local.php": false
             }
         },
         "installer-paths": {

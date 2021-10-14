@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6fbc477643dad29d87449d5c88a0201f",
+    "content-hash": "10646f5b8086e27b7c855eb5b5ef2084",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1637,6 +1637,54 @@
                 "source": "https://github.com/doctrine/lexer/tree/1.0.2"
             },
             "time": "2019-06-08T11:03:04+00:00"
+        },
+        {
+            "name": "drupal/alpinejs",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/alpinejs.git",
+                "reference": "1.4.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/alpinejs-1.4.0.zip",
+                "reference": "1.4.0",
+                "shasum": "c697910662b7cb69fad9dc5c4455d33d31d21a2a"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.4.0",
+                    "datestamp": "1610464669",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "johnwebdev",
+                    "homepage": "https://www.drupal.org/user/3331569"
+                },
+                {
+                    "name": "johnzzon",
+                    "homepage": "https://www.drupal.org/user/1868992"
+                }
+            ],
+            "description": "Provides Alpine.js library.",
+            "homepage": "https://www.drupal.org/project/alpinejs",
+            "support": {
+                "source": "https://git.drupalcode.org/project/alpinejs"
+            }
         },
         {
             "name": "drupal/content_sync",

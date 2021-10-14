@@ -14,19 +14,29 @@
  * @ingroup themeable
  */
 #}
+{{ attach_library('alpinejs/alpine') }}
+{% set attributes = attributes.addClass([
+  'tw-bg-gradient-to-br',
+  'tw-from-gray-700',
+  'tw-to-gray-900',
+  'tw-shadow-lg',
+  'tw-p-6',
+  'tw-rounded-t',
+  'tw-flex',
+  'tw-flex-wrap',
+  'tw-justify-between',
+  'tw-items-center',
+]) %}
 {% if content %}
-  <div{{ attributes.addClass([
-    'tw-bg-gradient-to-br',
-    'tw-from-gray-700',
-    'tw-to-gray-900',
-    'tw-shadow-lg',
-    'tw-p-6',
-    'tw-rounded-t',
-    'tw-flex',
-    'tw-flex-wrap',
-    'tw-justify-between',
-    'tw-items-center',
-  ]) }}>
+  <div{{ attributes }}
+    x-data="{
+      shouldBeFixed: window.innerHeight - $el.offsetTop > 96,
+      classes: [ 'tw-fixed', 'tw-bottom-6', 'tw-inset-x-6' ],
+      fix() { this.classes.forEach((cls) => $el.classList.add(cls) ) },
+      loose() { this.classes.forEach((cls) => $el.classList.remove(cls)) }
+    }"
+    x-init="shouldBeFixed ? fix() : loose()"
+  >
     {{ content }}
   </div>
 {% endif %}
