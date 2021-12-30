@@ -6,12 +6,9 @@ function geoffreyvanwykdev_preprocess_menu(&$variables, $hook) {
   foreach ($variables['items'] as &$item) {
     $attributes = $item['url']->getOption('attributes');
     if (isset($attributes['data-icon'])) {
-      $title = new FormattableMarkup('
-        <span class="visually-hidden">@title</span>
-        <svg class="tw-w-12 tw-h-6 tw-rounded-full tw-fill-current tw-text-gray-400">
-          <use xlink:href="#@icon"></use>
-        </svg>
-      ', [
+      $title = new FormattableMarkup(
+        file_get_contents(__DIR__ . '/templates/navigation/menuitem--icon.html.twig')
+      , [
         '@title' => $item['title'],
         '@icon' => $attributes['data-icon'],
       ]);

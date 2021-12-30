@@ -24,6 +24,7 @@
         "drupal/core-recommended": "^8.8",
         "drupal/devel": "^4.1",
         "drupal/menu_link_attributes": "^1.2",
+        "drupal/realistic_dummy_content": "^3.1",
         "drupal/token": "^1.9",
         "drush/drush": "^10.4"
     },
