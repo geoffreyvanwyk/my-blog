@@ -17,13 +17,13 @@
     "require": {
         "composer/installers": "^1.2",
         "drupal/alpinejs": "^1.4",
-        "drupal/content_sync": "^2.1",
         "drupal/copyright_block": "^1.0@RC",
-        "drupal/core-composer-scaffold": "^8.8",
-        "drupal/core-project-message": "^8.8",
-        "drupal/core-recommended": "^8.8",
+        "drupal/core-composer-scaffold": "^9",
+        "drupal/core-project-message": "^9",
+        "drupal/core-recommended": "^9",
         "drupal/menu_link_attributes": "^1.2",
         "drupal/token": "^1.9",
+        "drupal/upgrade_status": "^3.13",
         "drush/drush": "^10.4"
     },
     "conflict": {
@@ -91,5 +91,8 @@
                 "      composer remove drupal/core-project-message"
             ]
         }
+    },
+    "require-dev": {
+        "drupal/core-dev": "^9"
     }
 }
