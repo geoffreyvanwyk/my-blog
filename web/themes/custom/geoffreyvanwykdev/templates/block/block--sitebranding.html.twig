@@ -23,11 +23,11 @@
     </a>
   {% endif %}
     <figcaption class="tw-pl-4 tw-flex tw-flex-col tw-items-start tw-justify-center tw-font-semibold tw-text-white">
-  {% if site_name %}
-    <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">{{ site_name }}</a>
-  {% endif %}
+    {% if site_name %}
+      <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">{{ site_name }}</a>
+    {% endif %}
       <div class="tw-text-gray-400">
-  {{ site_slogan }}
+        {{ site_slogan }}
       </div>
     </figcaption>
   </figure>

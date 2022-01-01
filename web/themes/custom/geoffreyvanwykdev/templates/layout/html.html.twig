@@ -26,7 +26,7 @@
  */
 #}
 <!DOCTYPE html>
-<html{{ html_attributes }}>
+<html{{ html_attributes.addClass(['tw-h-full']) }}>
   <head>
     <head-placeholder token="{{ placeholder_token }}">
     <title>{{ head_title|safe_join(' | ') }}</title>
@@ -34,6 +34,7 @@
     <js-placeholder token="{{ placeholder_token }}">
   </head>
   <body{{ attributes.addClass([
+    'tw-h-full',
     'tw-bg-repeat',
     'tw-heropattern-circuitboard-gray-400',
   ]) }}>
